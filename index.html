@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.google.com/specimen/Fraunces" rel="stylesheet">
+  <link href="https://fonts.google.com/specimen/Montserrat" rel="stylesheet">
   
   <title>Frontend Mentor | Product preview card component</title>
 
@@ -16,21 +21,29 @@
 </head>
 <body>
 
-  Perfume
+  <div class="rect">
+    <img src="images/image-product-desktop.jpg" alt="product" class="main-image">
+    <div class="text">
+      <p>P E R F U M E</p>
+      <h1 class="name">Gabrielle Essence Eau De Parfum</h1>
 
-  Gabrielle Essence Eau De Parfum
+      <p class="description">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+        Perfumer-Creator for the House of CHANEL.
+      </p>
 
-  A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-  Perfumer-Creator for the House of CHANEL.
+      <div class="price">
+        <span class="actual">$149.99</span>
+        <span class="disc">$169.99</span>
+      </div>
 
-  $149.99
-  $169.99
+      <button><img src="images/icon-cart.svg" alt="icon">Add to Cart</button>
+    </div>
 
-  Add to Cart
+  </div>
   
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">ShtagerR</a>.
   </footer>
 </body>
 </html>

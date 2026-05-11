@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Fraunces';
+    src: url(fonts/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.rect{
+    display: flex;
+    width: 650px;
+    height: 450px;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+    
+}
+
+h1{
+  font-family: 'Fraunces';
+  font-weight: 700;
+  line-height: 1;
+}
+
+p{
+    font-family: 'Montserrat';
+    color:hsl(228, 12%, 48%);
+    font-size: 13px;
+}
+
+.main-image{
+    height:450px;
+    width:325px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.text{
+    width:50%;
+    padding-left:35px ;
+    padding-top:20px ;
+    padding-right:50px ;
+}
+
+.description{
+    line-height: 1.5;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 15px;
+    color:hsl(228, 12%, 48%);
+}
+
+.price{
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+
+.actual{
+    color:hsl(158, 36%, 37%);
+    font-size:30px;
+    font-weight: 800;
+    font-family: 'Fraunces'
+    
+}
+
+.disc{
+    color: grey;
+    text-decoration: line-through;
+}
+
+button{
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    color:white;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Montserrat';
+    margin-top: 30px;
+
+}
+
+button:hover{
+    background-color: hsl(158, 42%, 18%);
+    cursor: pointer;
+}
+
+img{
+    margin-right:10px;
+}
