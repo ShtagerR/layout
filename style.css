@@ -19,7 +19,7 @@ body{
 
 .rect{
     display: flex;
-    width: 650px;
+    width: 600px;
     height: 450px;
     border-radius: 15px;
     background-color: hsl(0, 0%, 100%);
@@ -40,23 +40,23 @@ p{
 
 .main-image{
     height:450px;
-    width:325px;
+    width:300px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+    object-fit: cover;
 }
 
 .text{
     width:50%;
-    padding-left:35px ;
-    padding-top:20px ;
-    padding-right:50px ;
+    padding:20px;
+    
 }
 
 .description{
     line-height: 1.5;
     font-family: 'Montserrat';
     font-weight: 500;
-    font-size: 15px;
+    font-size: 14px;
     color:hsl(228, 12%, 48%);
 }
 
