@@ -32,6 +32,10 @@ body{
         max-width: 343px;
         margin:16px;
     }
+
+    .main-image{
+        height: 240px;
+    }
 }
 
 h1{
